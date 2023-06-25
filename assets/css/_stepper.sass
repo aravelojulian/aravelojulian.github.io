@@ -1,0 +1,11 @@
+@use "theme"
+
+.stepper-container
+  .stepper-step
+    background-color: theme.$disabled-background-color
+
+    &.active
+      background-color: theme.$atlas_theme_t1
+
+    &.done
+      background-color: theme.$atlas_theme_t3
